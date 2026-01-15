@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ilyes Madi | Développeur web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <img class="avatar" src="image/Photo d'identité.jpg" alt="Photo de profil" />
+    <h1>Ilyes Madi</h1>
+    <p class="subtitle">Développeur web en formation — HTML · CSS · JavaScript · PHP</p>
+
+    <div class="actions">
+      <a class="btn" href="https://github.com/ilyes-madi" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-ghost" href="mailto:tonmail@email.com">Me contacter</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Projets</h2>
+
+      <div class="grid">
+
+        <article class="card">
+          <h3>EcoRide</h3>
+          <p>Plateforme de covoiturage (ECF) — PHP, PDO, MySQL, HTML/CSS.</p>
+          <div class="links">
+            <a href="https://github.com/ilyes-madi/ecoride" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Muhammad Ali Website</h3>
+          <p>Site vitrine retraçant sa carrière — HTML, CSS, JavaScript.</p>
+          <div class="links">
+            <a href="https://ilyes-madi.github.io/muhammad-ali-website/" target="_blank" rel="noopener">Voir le site</a>
+            <a href="https://github.com/ilyes-madi/muhammad-ali-website" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Blog Mafia</h3>
+          <p>Blog thématique / projet front — HTML, CSS.</p>
+          <div class="links">
+            <a href="https://ilyes-madi.github.io/blog-mafia-website/" target="_blank" rel="noopener">Voir le site</a>
+            <a href="https://github.com/ilyes-madi/blog-mafia-website" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Compétences</h2>
+      <h5>Technologies que j'utilise dans mes projets web personnels et académiques.</h3>
+      <br><ul class="skills">
+        <li>HTML / CSS (Flexbox, Grid)</li>
+        <li>JavaScript (DOM)</li>
+        <li>PHP (PDO)</li>
+        <li>MySQL</li>
+        <li>Bootstrap</li>
+        <li>WordPress</li>
+        <li>Git / GitHub</li>
+        <li>Figma (wireframes, maquettes)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Ilyes Madi</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
