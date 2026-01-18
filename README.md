@@ -72,7 +72,8 @@ Objectifs :
 - HTML / CSS (Flexbox, Grid)  
 - JavaScript (DOM)  
 - PHP (PDO)  
-- MySQL  
+- MySQL
+- Python
 - Bootstrap  
 - WordPress  
 - Git / GitHub  
